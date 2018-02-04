@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pratiwiika_1202154314_modul1.SecondActivity">
+
+    <TextView
+        android:id="@+id/idMakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/idTempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/idMakan"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <TextView
+        android:id="@+id/idMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/idTempat"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <TextView
+        android:id="@+id/idMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/idMenu"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/idPorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Porsi"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/idMakanan"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/idJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/idPorsi"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/idHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Harga"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/idJumlah"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/idPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/idHarga"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
